@@ -1,0 +1,46 @@
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.inline-block {
+    display: inline-block;
+}
+.divider {
+    height: 2px;
+    width:100%;
+    display:block; /* for use on default inline elements like span */
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: rgba(33, 150, 243, 0.59);
+}
+.action {
+    cursor: pointer;
+    margin-right: 5px;
+}
+.my-alert {
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 9999;
+}
+.alias {
+    color: rgba(33, 150, 243, 0.59);
+    font-size: 25px;
+}
+.updated {
+    float: right;
+    color: #9E9E9E;
+}
+.select2-dropdown {
+    margin-left: 50px;
+}
+.host-head > .badge {
+    min-width: 110px;
+}
+.host-head > .badge.success {
+    background-color: #5cb85c;
+}
+.host-head > .badge.error {
+    background-color: #d9534f;
+}

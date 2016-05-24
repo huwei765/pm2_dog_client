@@ -1,0 +1,17 @@
+<% include ./layouts/header %>
+
+<div class="panel panel-default">
+    <div class="panel-heading">Processes</div>
+    <div class="panel-body">
+    <div class="input-group" style="width:100%">
+        <input type="text" id="process-select" class="form-control" placeholder="Select by process name" aria-describedby="basic-addon1" style="width:90%;margin-bottom:10px;">
+        <select id="hosts-select" multiple="multiple" style="width:90%">
+        </select>
+    </div>
+    <div id="pm2-dog-list">
+    </div>
+    <div id="pm2-test">
+    </div>
+</div>
+
+<% include ./layouts/footer %>
