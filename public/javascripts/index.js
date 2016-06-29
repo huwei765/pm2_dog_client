@@ -144,7 +144,8 @@ var initServerList = function(serverList) {
             server: server,
             updated: updated
         });
-        $('#pm2-test').append(html);
+        //$('#pm2-test').append(html);
+        $("#pm2-dog-list").append(html);
     });
 };
 
